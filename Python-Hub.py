@@ -1,3 +1,5 @@
+from cgi import print_arguments
+
 x = 5
 y = "Hello, World"
 print(x)
@@ -52,3 +54,30 @@ print("myvar2")
 2myvar ="John"
 my-var = "John"
 my var = "John"
+#This example will produce an error in the command
+
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+fruits = ["Apple", "Banana", "Cheery"]
+x, y, z, = "fruits"
+print(x)
+print(y)
+print(z)
+
+x = "Python"
+Y = "is"
+z = "Awesome"
+print("x, y, z")
+
+x = "Python"
+y = "is"
+z = "Awesome"
+print("x + y + z")
