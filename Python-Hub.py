@@ -1,4 +1,4 @@
-from cgi import print_arguments
+'from' cgi import print_arguments
 
 x = 5
 y = "Hello, World"
