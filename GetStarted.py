@@ -1,4 +1,6 @@
-print("Hello, World")
+#\bin\python3
+print("Hello, world")
 
-print("sys".version)
+import sys
 
+print(sys.version)
