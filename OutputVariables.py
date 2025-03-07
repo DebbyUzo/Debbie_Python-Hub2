@@ -1,5 +1,5 @@
 x = "Python is awesome"
-print(Exception)
+print(x)
 
 X = "Python"
 y = "is"
